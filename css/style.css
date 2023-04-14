@@ -1,7 +1,6 @@
 .body-index{
     background-color: black;
     background-image: url(/img/image\ 14.png);
-    background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
 }
@@ -11,13 +10,13 @@
 }
 .login{
     background-color: black;
-    background-image: url(/img/image\ 14.png);
+    background-image: url(/img/meno.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .entrar
 {
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
@@ -28,14 +27,35 @@
     margin-bottom: 10%;
     margin-left: 60px;
 }
+.btnEntrar
+{
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+    border: 3px solid #ffffff;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 400;
+    margin-bottom: 20%;
+   margin-top: 25px;
+}
 .div{
     padding: 10px 20px;
     width: 400px;
     height: 600px;
     background-color: #ffffff4f;
     border-radius: 15px;
-    margin-left: 500px;
-    margin-top: 100;
+    margin: 0 auto;
+    box-shadow: 1px 1px 20px #000000;
+}
+.div-centralizada{
+    padding: 10px 20px;
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff4f;
+    border-radius: 15px;
+    margin: 0 auto;
     box-shadow: 1px 1px 20px #ffffff;
 }
 .text{
@@ -54,9 +74,6 @@ h1{
     background: -webkit-linear-gradient(#ffffff,#ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-img{
-    margin-left: 150px;
 }
 .sair{
     color: #ffffff;
@@ -85,8 +102,8 @@ img{
 }
 
 .baxo{
-    margin-top: 500px;
     width: 100%;
+    height: 600px;
     background-color: #000000;
     color: #ffffff;
     display: flex;
@@ -120,8 +137,11 @@ img{
 }
 
 .loginn{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 500px;
+    
 }
 .loginn > a{
     border: 3px solid white;
@@ -169,8 +189,24 @@ img{
 .maziero{
     display: flex;
     margin-right: 20px;
+    overflow: scroll;
+}
+.maziero::-webkit-scrollbar {
+    display: none;
 }
 .baiano > img{
     margin-right: 10px;
     margin-left: 10px;
+}
+.catalogo{
+    display: flex;
+    overflow: scroll;
+}
+.ok > p{
+    margin-top: 23px;
+    margin-left: 15px;
+    color: #000000;
+}
+.ok{
+    display: flex;
 }
