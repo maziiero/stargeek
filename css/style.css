@@ -1,6 +1,6 @@
 .body-index{
     background-color: black;
-    background-image: url(/img/image\ 14.png);
+    background-image: url(../img/image/ 14.png);
     background-size: cover;
     background-color: black;
 }
@@ -10,7 +10,7 @@
 }
 .login{
     background-color: black;
-    background-image: url(/img/meno.jpg);
+    background-image: url(../img/meno.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
