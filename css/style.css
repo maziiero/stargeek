@@ -1,6 +1,6 @@
 .body-index{
     background-color: black;
-    background-image: url(../img/image/ 14.png);
+    background-image: url(../img/image14.png);
     background-size: cover;
     background-color: black;
 }
@@ -204,7 +204,7 @@ h1{
 }
 .ok > p{
     margin-top: 23px;
-    margin-left: 15p
+    margin-left: 15px;
     color: #000000;
 }
 .ok{
